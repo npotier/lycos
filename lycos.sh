@@ -12,7 +12,7 @@ promptyn () {
 }
 
 PS3='Entrer votre choix: '
-options=("Chercher les fichiers contenant le texte" "Chercher par nom de fichier" "Chercher un fichier par taille" "Quit")
+options=("Chercher les fichiers contenant le texte" "Chercher par nom de fichier" "Chercher un fichier par taille" "Quitter")
 select opt in "${options[@]}"
 do
     case $opt in
