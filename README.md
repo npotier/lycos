@@ -1,6 +1,12 @@
 # Lycos
 
-Utilitaire en ligne de commande pour trouver des fichiers
+Utilitaire en ligne de commande pour effectuer des opérations de recherche sur vos fichiers.
+
+Lycos permet de :
+
+* chercher des fichiers contenant un texte en particulier
+* chercher des fichiers ayant un nom en particulier
+* chercher des fichiers ayant une taille en particulier
 
 ## Installation
 ```
