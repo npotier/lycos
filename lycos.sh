@@ -26,7 +26,7 @@ do
             echo ""
             echo "Recherche du texte : '$text' pour l'extension '$limit'"
             echo ""
-            grep -rnw '.' -ie "$text" --include $limit
+            grep -rnw '.' -ie "$text" --include "$limit"
             break;
             ;;
         "Chercher par nom de fichier")
